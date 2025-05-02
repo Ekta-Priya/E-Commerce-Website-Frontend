@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <style>
+        body{
+            background: #d3d3d3;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="index.html"><img src="/images/new logo.webp" width="40px" alt="logo expected">
+            </a>
+        </div>
+        <div class="nav-country"><img src="/images/locationwhite.jpg" width="20px" alt="">
+            <div>
+                <p>Delivered to</p>
+                <p>India</p>
+            </div>
+        </div>
+        <div class="nav-search">
+            <div class="nav-search-cat">
+                <p>All</p>
+                <img src="/images/greydropdownicon.png" height="12px" alt="">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="search items">
+            <div class="navsearchIcon">
+                <img src="/images/searchwhite.png" alt="" class="nav-saerch-icon">
+            </div>
+        </div>
+        <div class="nav-lang">
+            <img src="/images/flag.webp" width="25px" alt="">
+            <p>IND</p>
+            <img src="/images/greydropdownicon.png" width="8px" alt="">
+        </div>
+        <div class="nav-text">
+            <p>Sign in</p>
+            <h1>Accounts and List <img src="/images/greydropdownicon.png" width="8px" alt=""></h1>
+        </div>
+        <div class="nav-text">
+            <p>Return</p>
+            <h1> & Orders</h1>
+        </div>
+        <a href="" class="nav-cart">
+           <a href="accountPage.html"><img src="/images/cart.jpg" width="35px" alt=""></a> 
+            <h1>Cart</h1>
+        </a>
+    </nav>
+    <div class="nav-bottom">
+        <div class="menu-container">
+            <img src="/images/menuwhite.jpg" class="menu-icon" width="25px" alt="" 
+            onclick="menutoggle()">
+        </div>
+        <p><a href="index.html">All</a></p>
+        <p><a href="productListPage.html">Deals</a></p>
+        <p>Customer Service</p>
+        <p><a href="accountPage.html">Register</a></p>
+        <p>Gift</p>
+        <p><a href="productListPage.html">Sell</a></p>
+    </div>
+    <div>
+        <ul id="menuItems">
+            <li>profile</li>
+            <li>settings</li>
+            <li>help & support</li>
+            <li>history</li>
+            <li>coupens</li>
+            <li>location</li>
+
+        </ul>
+    </div>
+    <section class="homePage">
+        <div class="headers-slider">
+            <a href="#" class="control_prev">&#8592</a>
+            <a href="#" class="control_next">&#8594</a>
+
+            <ul>
+                <img src="/images/header1.jpg" class="header-img" alt="">
+                <img src="/images/header2.jpg" class="header-img" alt="">
+                <img src="/images/header3.jpg" class="header-img" alt="">
+                <img src="/images/header4.jpg" class="header-img" alt="">
+                <img src="/images/header5.jpg" class="header-img" alt="">
+                <img src="/images/header6.jpg" class="header-img" alt="">
+            </ul>
+        </div>
+        <div class="box-row header-box">
+            <div class="box-col">
+                <h3>Free International Return</h3>
+                <img src="/images/box4.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3> Home Decorative items</h3>
+                <img src="/images/box3.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Toys under 150rs</h3>
+                <img src="/images/box.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Electronic gadgets and music system</h3>
+                <img src="/images/box1.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+        </div>
+
+        <div class="box-row">
+            <div class="box-col">
+                <h3>Phones</h3>
+                <img src="/images/box2.1.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Gromming Products</h3>
+                <img src="/images/box2.2.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Pet Foods</h3>
+                <img src="/images/box2.3.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Packed Items</h3>
+                <img src="/images/box2.4.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+        </div>
+        <div class="pro_slider">
+            <h2>Best Seller in Gym Items</h2>
+            <div class="products">
+                <img src="/images/slid.1.jpg" alt="">
+                <img src="/images/slid.2.jpg" alt="">
+                <img src="/images/slid4.jpg" alt="">
+                <img src="/images/slid5.jpg" alt="">
+                <img src="/images/slid6.jpg" alt="">
+                <img src="/images/slid7.jpg" alt="">
+                <img src="/images/slid8.jpg" alt="">
+                <img src="/images/slid.1.jpg" alt="">
+                <img src="/images/slid10.jpg" alt="">
+            </div>
+        </div>
+        <div class="box-row">
+            <div class="box-col">
+                <h3>Laptops</h3>
+                <img src="/images/box3.1.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3> Washing Machines</h3>
+                <img src="/images/box3.2.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Bakers</h3>
+                <img src="/images/box3.3.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Iron</h3>
+                <img src="/images/box3.4.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+        </div>
+        <div class="products-slider-with-price">
+            <h2>BUY ONE GET ONE</h2>
+            <div class="products">
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj`.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>27% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj2.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>26% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 399 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj3.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>79% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 99</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj4.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>50% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 399 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj5.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>15% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 249 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj6.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>17% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 99</span> List Price:Rs 149 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj7.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>54% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 449 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj7.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>87% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 99</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj8.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>56% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 99</span> List Price:Rs 249 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj9.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>50% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 399 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidj`.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>80% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 99</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro_slider">
+            <h2>Home Decorative Art Peice</h2>
+            <div class="products">
+                <img src="/images/bd1.jpg" alt="">
+                <img src="/images/bd2.jpg" alt="">
+                <img src="/images/bd3.jpg" alt="">
+                <img src="/images/bd4.jpg" alt="">
+                <img src="/images/bd10.jpg" alt="">
+                <img src="/images/bd11.jpg" alt="">
+                <img src="/images/bd12.jpg" alt="">
+                <img src="/images/bd2.jpg" alt="">
+                <img src="/images/bd3.jpg" alt="">
+                <img src="/images/bd4.jpg" alt="">
+                <img src="/images/bd2.jpg" alt="">
+                <img src="/images/bd3.jpg" alt="">
+                <img src="/images/bd4.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="products-slider-with-price">
+            <a href="productListPage.html"><h2>Dress under Rs 500</h2></a>
+            <div class="products">
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                       <a href="productDetailPage.html"><img src="/images/tshirt1.jpg" alt=""></a> 
+                    </div>
+                    <div class="product-offer">
+                        <p>20% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidg1.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>17% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidg2.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>2% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 399</span> List Price:Rs 405 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidg3.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>20% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 99</span> List Price:Rs 159 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidg4.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>50% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidg5.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>57% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidg6.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>40% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 199</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidg7.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>30% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs <span> 300</span> List Price:Rs 499 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+                <div class="product-cards">
+                    <div class="product-img-conatiner">
+                        <img src="/images/slidg9.jpg" alt="">
+                    </div>
+                    <div class="product-offer">
+                        <p>45% off</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">Rs299 <span> 199</span> List Price:Rs 599 </p>
+                    <h4>This is the best product for you</h4>
+                </div>
+
+            </div>
+        </div>
+        <div class="box-row">
+            <div class="box-col">
+                <h3>vega cliff full face Helmet</h3>
+                <img src="/images/bh1.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>EmotarRide Helmet</h3>
+                <img src="/images/bh2.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Everyday Helmet</h3>
+                <img src="/images/bh3.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Axis Helmet</h3>
+                <img src="/images/bh4.jpg" alt="">
+                <a href="/">Shop More</a>
+            </div>
+        </div>
+        <div class="offer">
+            <div class="small-conatiner">
+                <div class="row">
+                    <div class="col">
+                        <img src="/images/owb.jpg" alt="" class="offer-img">
+                    </div>
+                    <div class="col">
+                        <p>Excuslively available with great Offer</p>
+                        <h1>Smart Watch</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio minima rem corporis eaque
+                            consequuntur, obcaecati nemo natus fugiat ipsa iusto!</small>
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonal">
+            <div class="box-row">
+                <div class="box-col">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe repudiandae dolores quidem
+                        perferendis
+                        vero nihil accusamus harum iusto, aspernatur, corrupti minus illo ad et recusandae?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="/images/li1.jpg" alt="">
+                    <h3>K. Vatheswaran</h3>
+                </div>
+                <div class="box-col">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe repudiandae dolores quidem
+                        perferendis
+                        vero nihil accusamus harum iusto, aspernatur, corrupti minus illo ad et recusandae?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="/images/li2.jpg" alt="">
+                    <h3>K. Vatheswaran</h3>
+                </div>
+                <div class="box-col">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae ratione esse repudiandae natus
+                        placeat sint fugit modi, beatae suscipit dicta nihil nam praesentium. Dignissimos inventore
+                        maxime ratione eos dolorum in neque, quisquam nemo quod laborum cum deleniti hic quia quis natus
+                        perspiciatis, asperiores velit incidunt autem. Quam velit ipsum veniam.ae?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="/images/li3.jpg" alt="">
+                    <h3>K. Vatheswaran</h3>
+                </div>
+            </div>
+        </div>
+        <div class="brands">
+            <div class="box-rowr">
+                <div class="box-colB">
+                    <img src="/images/brand1.jpg" alt="">
+                </div>
+                <div class="box-colB">
+                    <img src="/images/brand2.jpg" alt="">
+                </div>
+                <div class="box-colB">
+                    <img src="/images/brand5.jpg" alt="">
+                </div>
+                <div class="box-colB">
+                    <img src="/images/brand3.jpg" alt="">
+                </div>
+                <div class="box-colB">
+                    <img src="/images/brand6.jpg" alt="">
+                </div>
+                <div class="box-colB">
+                    <img src="/images/brand4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footerclass">
+        <img src="/images/logo.jpg" alt="">
+        <p>0 2022-2025, E-Commerce.com, Inc. or its affliates</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

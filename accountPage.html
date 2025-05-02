@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <title>accountPage</title>
+    <style>
+        body,html{
+            background: radial-gradient(#fff,#ffd6d6);
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="/"><img src="/images/new logo.webp" width="40px" alt="logo expected">
+            </a>
+        </div>
+        <div class="nav-country"><img src="/images/locationwhite.jpg" width="20px" alt="">
+            <div>
+                <p>Delivered to</p>
+                <p>India</p>
+            </div>
+        </div>
+        <div class="nav-search">
+            <div class="nav-search-cat">
+                <p>All</p>
+                <img src="/images/greydropdownicon.png" height="12px" alt="">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="search items">
+            <div class="navsearchIcon">
+                <img src="/images/searchwhite.png" alt="" class="nav-saerch-icon">
+            </div>
+        </div>
+        <div class="nav-lang">
+            <img src="/images/flag.webp" width="25px" alt="">
+            <p>IND</p>
+            <img src="/images/greydropdownicon.png" width="8px" alt="">
+        </div>
+        <div class="nav-text">
+            <p>Sign in</p>
+            <h1>Accounts and List <img src="/images/greydropdownicon.png" width="8px" alt=""></h1>
+        </div>
+        <div class="nav-text">
+            <p>Return</p>
+            <h1> & Orders</h1>
+        </div>
+        <a href="" class="nav-cart">
+            <img src="/images/cart.jpg" width="35px" alt="">
+            <h1>Cart</h1>
+        </a>
+    </nav>
+    <section class="accountPage">
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="/images/header1.jpg" alt="">
+                    </div>
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="login()">Login/</span>
+                                <span onclick="register()">Register</span>
+                                <hr id="Indicator">
+                            </div>
+                            <form action="" id="loginForm">
+                                <input type="text" placeholder="username">
+                                <input type="password"placeholder="password">
+                                <button type="submit"class="btn">Login</button>
+                                <a href="">Forget Password</a>
+                            </form>
+                            <form action=""id="regForm">
+                                <input type="text" placeholder="username">
+                                <input type="email" placeholder="Email">
+                                <input type="password"placeholder="password">
+                                <button type="submit"class="btn">Register</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="/images/logo.jpg" alt="">
+        <p>0 2022-2025, E-Commerce.com, Inc. or its affliates</p>
+    </footer>
+    <script src="scriptAccount.js"></script>
+
+</body>
+</html>
